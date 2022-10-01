@@ -50,9 +50,9 @@ export const DetailScreen = ({ route, navigation }: Props) => {
             onPress={ () => navigation.goBack() }
           >
             <Icon 
-              name='arrow-back-outline'
-              color='white'
-              size={ 50 }
+              name='arrow-back-circle-outline'
+              color='#E5E4E2'
+              size={ 40 }
             />
           </TouchableOpacity>
 

@@ -16,8 +16,6 @@ export const ActorInfoScreen = ({ route, navigation }: Props) => {
 
   const { actorInfo } =  useActorInfo(actor.id);
 
-  console.log('[INFO]--->',actorInfo);
-
   return (
     <ScrollView>
       <View style={ styles.imageContainer }>
@@ -71,9 +69,9 @@ export const ActorInfoScreen = ({ route, navigation }: Props) => {
             onPress={ () => navigation.goBack() }
           >
             <Icon 
-              name='arrow-back-outline'
-              color='white'
-              size={ 50 }
+              name='arrow-back-circle-outline'
+              color='#E5E4E2'
+              size={ 40 }
             />
           </TouchableOpacity>
     </ScrollView>
